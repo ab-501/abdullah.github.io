@@ -1,0 +1,106 @@
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15pt;
+}
+
+#logo, #linkedin, #github{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#HeaderContainer{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+#slogan{
+    vertical-align: top;
+    font-size: 25pt;
+    display: inline;
+}
+
+:root{
+    --navStick: 1rem;
+}
+
+nav{
+    top: 0;
+    margin-top: var(--navStick);
+    margin-left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+body{
+    margin: 1rem;
+    background-color: #47BCFF;
+}
+
+main{
+    margin-top: var(--navStick);
+    padding: 2rem;
+    background-color: #90d7ff;
+}
+
+
+h1{
+    clear: both;
+}
+
+#CoinContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Card{
+    background-color: darkslategray;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#Image{
+    background-color: dimgray;
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#Info{
+    background-color: dimgray;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+img{
+    width: 5rem;
+    height: 5rem;
+    aspect-ratio: 1/1;
+    padding: 0.5rem;
+}
+
+
