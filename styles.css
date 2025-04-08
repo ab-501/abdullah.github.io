@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #8bd4e0;
+}
+
+#header-placeholder{
+    top: 0;
+    position: sticky;
+}
+
+nav{
+    background-color: #5bcbdc;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a{
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    color: black;
+}
+
+nav a:hover{
+    background-color: #8bd4e0;
+}
+
+nav a:first-child{
+    margin-right: auto;
+}
+
+nav a:last-child{
+    background-color: royalblue;
+    color: ghostwhite;
+}
+
+#HeroSection{
+    background-image: url("/assets/github.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", monospace;
+    color: royalblue;
+}
+
+#HeroButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 10vh;
+    padding: 1em;
+    border: .1em solid black;
+    border-radius: 20%;
+    background-color: royalblue;
+    color: ghostwhite;
+}
+
+.Column1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 1em;
+    margin: 1em;
+}
+
+.Column2{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+#CoinGrid, #CapGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.CoinCard, .CapCard {
+    background: lavenderblush;
+    padding: .3em;
+    margin: .3em;
+    border: .01em solid black;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.CoinCard:hover, .CapCard:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+#TechGrid, #LangGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#TechGrid{
+    margin-top: 1em;
+    padding-bottom: 5em;
+}
+
+#FrameGrid, #DevGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.EducationSection{
+    text-align: center;
+    text-decoration: none;
+}
+
+.EducationSection ul li{
+    list-style: none;
+}
+
+#ContactGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-decoration: none;
+    text-align: center;
+}
+
+#ContactGrid a, #ContactGrid p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin: 1em;
+    background-color: #47BCFF;
+    border-radius: 10%;
+    border: .01em solid black;
+    text-decoration: none;
+    color: black;
+    height: 20vh;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
