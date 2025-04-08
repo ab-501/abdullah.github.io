@@ -4,21 +4,23 @@ document.addEventListener("DOMContentLoaded", loadListeners);
 function loadListeners() {
     document.getElementById("CoinForm").addEventListener("submit", handleCoinForm);
     document.getElementById("ContactForm").addEventListener("submit", handleContactForm);
+
+    fetch("header.html")
+        .then(response => response.text())
+        .then(data => {
+            document.querySelector("header").innerHTML = data;
+        })
+        .catch(error => console.error('Error loading header:', error));
+
+    fetch("Collections.html")
+        .then(response => response.text())
+        .then(data => {
+            document.querySelector("header").innerHTML = data;
+        })
+        .catch(error => console.error('Error loading header:', error));
 }
 
-fetch("header.html")
-    .then(response => response.text())
-    .then(data => {
-        document.querySelector("header").innerHTML = data;
-    })
-    .catch(error => console.error('Error loading header:', error));
 
-fetch("Collections.html")
-    .then(response => response.text())
-    .then(data => {
-        document.querySelector("header").innerHTML = data;
-    })
-    .catch(error => console.error('Error loading header:', error));
 
 function searchTable() {
     let input, filter, table, tr, td, i, txtValue, strictMode;
