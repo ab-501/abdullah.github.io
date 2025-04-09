@@ -89,16 +89,22 @@ nav a:last-child{
 }
 
 #CoinGrid, #CapGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    /*min-width: 1fr;*/
+    /*min-height: 1fr;*/
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
 }
 
 .CoinCard, .CapCard {
     background: lavenderblush;
-    padding: .3em;
-    margin: .3em;
+    padding: .5em;
+    margin: .5em;
     border: .01em solid black;
-    border-radius: 10px;
+    border-radius: 20%;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
@@ -132,18 +138,19 @@ nav a:last-child{
 }
 
 #ContactGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-evenly;
     text-decoration: none;
     text-align: center;
 }
 
-#ContactGrid a, #ContactGrid p{
+.ContactCard{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em;
-    margin: 1em;
+    flex-direction: column;
+    padding: 3em;
+    margin: .5em;
     background-color: #47BCFF;
     border-radius: 10%;
     border: .01em solid black;
@@ -152,12 +159,21 @@ nav a:last-child{
     height: 20vh;
 }
 
+.ContactCard b{
+    padding: 1em 0 1em 0;
+}
+
 h1{
     text-align: center;
     text-decoration: underline;
 }
 
-
+.CollectionTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
 
 
 
