@@ -90,27 +90,12 @@ nav a:last-child{
 
 #CoinGrid, #CapGrid{
     display: flex;
-    /*min-width: 1fr;*/
-    /*min-height: 1fr;*/
     flex-wrap: wrap;
-    justify-content: center;
-
-    /*display: grid;*/
-    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
-}
-
-.CoinCard, .CapCard {
-    background: lavenderblush;
-    padding: .5em;
-    margin: .5em;
-    border: .01em solid black;
-    border-radius: 20%;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-.CoinCard:hover, .CapCard:hover {
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+.CoinCard, .CapCard {
+    padding: 1em;
 }
 
 #TechGrid, #LangGrid{
@@ -173,6 +158,14 @@ h1{
     justify-content: center;
     align-items: center;
     height: 20vh;
+}
+
+.footer{
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
 
 
