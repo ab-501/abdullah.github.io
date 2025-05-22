@@ -1,3 +1,15 @@
+// document.querySelectorAll('img').forEach(i => {
+//     i.addEventListener('click', evt => {
+//         if (i.classList.contains('zoomed'))
+//             i.style.transform = ''
+//         else {
+//             const myScale = 500 / i.clientWidth
+//             i.style.transform = `scale(${myScale})`
+//         }
+//         i.classList.toggle('zoomed')
+//     })
+// })
+
 async function loadCaps() {
     try {
         const response = await fetch("assets/Caps.csv");
@@ -44,6 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 })
+
 
 async function loadCoins() {
     try {

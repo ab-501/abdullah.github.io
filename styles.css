@@ -63,16 +63,40 @@ nav a:last-child{
 
 #HeroButton{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 5vh;
     width: 10vh;
-    padding: 1em;
+    padding: 2em;
     border: .1em solid black;
     border-radius: 20%;
     background-color: royalblue;
     color: ghostwhite;
 }
+
+.JobSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.JobSection img{
+    margin: auto;
+}
+
+.JobSection div{
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.JobSection div ul{
+    margin-top: .5rem;
+}
+
+
 
 .Column1{
     display: flex;
@@ -157,8 +181,9 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 15vh;
 }
+
 
 .footer{
     height: 10vh;
@@ -168,6 +193,14 @@ h1{
     text-align: center;
 }
 
+/*img{*/
+/*    transition: scale 0.25s ease;*/
+/*    cursor: zoom-in;*/
+/*}*/
+
+/*img .zoomed{*/
+/*    cursor: zoom-out;*/
+/*}*/
 
 
 
