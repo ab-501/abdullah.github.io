@@ -124,9 +124,12 @@ nav a:last-child{
     padding: 1em;
 }
 
-#TechGrid, #LangGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+#TechGrid{
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 #TechGrid{
@@ -134,9 +137,8 @@ nav a:last-child{
     padding-bottom: 5em;
 }
 
-#FrameGrid, #DevGrid{
+#FrameGrid, #DevGrid, #LangGrid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
 .EducationSection{
