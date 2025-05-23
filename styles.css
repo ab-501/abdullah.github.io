@@ -75,6 +75,10 @@ nav a:last-child{
     color: ghostwhite;
 }
 
+.card{
+    margin: 3rem;
+}
+
 .JobSection{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -95,8 +99,6 @@ nav a:last-child{
 .JobSection div ul{
     margin-top: .5rem;
 }
-
-
 
 .Column1{
     display: flex;

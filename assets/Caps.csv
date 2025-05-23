@@ -2,7 +2,7 @@ CapID,Name,CapType,Material,Shape,EdgeType,EdgeInscription,Colour,FrontDesign,Co
 1,Strathmore Still,Screw Cap,Metal,Circle,Milled,,Blue,Strathmore Still,"Alberta, Canada",Water,Still,2,,
 2,Diet Coke - Silver,Crown Cap,Metal,Circle,Crown,,Silver,Diet Coke,United States,Soda,,2,,
 3,Sprite - Silver,Crown Cap,Metal,Circle,Crown,,Silver,Sprite,Germany,Soda,,2,,
-4,Coke Zero - Silver,Crown Cap,Metal,Circle,Crown,,Black,Please Recycle Me,United States,Soda,,4,,
+4,Coke Zero - Metal B&W,Crown Cap,Metal,Circle,Crown,,Black,Please Recycle Me,United States,Soda,,4,,
 5,Corona Extra,Crown Cap,Metal,Circle,Crown,,Blue & White,Corona Extra,"Mexico City, Mexico",Beer,,2,,
 6,fritz-kola - Black,Crown Cap,Metal,Circle,Crown,,Black & White,Fritz-Kola,"Hamburg, Germany",Soda,,2,,
 7,fritz-kola - Orange,Crown Cap,Metal,Circle,Crown,Pull Out Then Up,Orange & White,Fritz-Kola,"Hamburg, Germany",Soda,,1,,
@@ -46,12 +46,12 @@ CapID,Name,CapType,Material,Shape,EdgeType,EdgeInscription,Colour,FrontDesign,Co
 45,Schweppes,Crown Cap,Metal,Circle,Crown,,Orange & Blue,Schweppes,"Geneva, Switzerland",Soda,Orange,1,,
 46,J2O,Crown Cap,Metal,Circle,Crown,,Green & White,J2O,United Kingdom,Soda,Apple & Raspberry,1,,
 47,Pepsi,Crown Cap,Metal,Circle,Crown,,"Blue, Red, White, Silver",Logo,United States,Soda,,1,,
-48,Coke Zero - Metal B&W,Crown Cap,Metal,Circle,Crown,,Black & White,Coca Cola Zero Calories,United States,Soda,,1,,Found in Dubai with Dubai Writing
-49,Coca Cola - R&W,Crown Cap,Metal,Circle,Crown,,Red & White,Coca Cola,United States,Soda,,1,,Found in Dubai with Dubai Writing
-50,Diet Coke - S&B,Crown Cap,Metal,Circle,Crown,,Silver & Black,Coca Cola Light,United States,Soda,,1,,Found in Dubai with Dubai Writing
-51,Fanta - Metal Dubai O&B,Crown Cap,Metal,Circle,Crown,,Orange & Blue,Fanta,Germany,Soda,,1,,Found in Dubai with Dubai Writing
-52,Sprite - G&W,Crown Cap,Metal,Circle,Crown,,Green & White,Sprite,Germany,Soda,,1,,Found in Dubai with Dubai Writing
-53,Fanta - Maroon,Crown Cap,Metal,Circle,Crown,,Maroon,Fanta,Germany,Soda,Strawberry,1,,Found in Birmingham next to Mr. T's with Dubai Writing
+48,Coke Zero - Dubai,Crown Cap,Metal,Circle,Crown,,Black & White,Coca Cola Zero Calories,United States,Soda,,1,,Found in Dubai with Dubai Writing
+49,Coca Cola - Dubai,Crown Cap,Metal,Circle,Crown,,Red & White,Coca Cola,United States,Soda,,1,,Found in Dubai with Dubai Writing
+50,Diet Coke - Dubai,Crown Cap,Metal,Circle,Crown,,Silver & Black,Coca Cola Light,United States,Soda,,1,,Found in Dubai with Dubai Writing
+51,Fanta - Dubai O&B,Crown Cap,Metal,Circle,Crown,,Orange & Blue,Fanta,Germany,Soda,,1,,Found in Dubai with Dubai Writing
+52,Sprite - Dubai,Crown Cap,Metal,Circle,Crown,,Green & White,Sprite,Germany,Soda,,1,,Found in Dubai with Dubai Writing
+53,Fanta - Dubai Maroon,Crown Cap,Metal,Circle,Crown,,Maroon,Fanta,Germany,Soda,Strawberry,1,,Found in Birmingham next to Mr. T's with Dubai Writing
 54,Miranda - Silver,Crown Cap,Metal,Circle,Crown,,Silver & Orange,Miranda,Spain,Soda,Orange,1,,
 55,Unknown 1 - Green Apple,Screw Cap,Metal,Circle,Milled,,Light Green,Green Apple,,Juice,Apple,1,,
 56,Unknown 2 - Green Recycle Me,Screw Cap,Plastic,Circle,Milled,,Silver,Please Recycle Me,,Juice/Soda,,1,,
