@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js" defer></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="script.js" defer></script>
     <title>Bottle Caps</title>
 </head>
@@ -85,6 +86,13 @@
         </div>
         <section id="CapSearchDisplay"></section>
         <p id="CapSearchDisplaySeperation" style="display: none;">===========================================================================================================================================</p>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <div id="capTypePieChart" style="width: 40%; height: 75%;"></div>
+            <div id="capMaterialPieChart" style="width: 40%; height: 75%;"></div>
+            <div id="capEdgeTypePieChart" style="width: 40%; height: 75%;"></div>
+            <div id="capDesignPieChart" style="width: 40%; height: 75%;"></div>
+            <div id="capBeverageTypeChart" style="width: 40%; height: 75%;"></div>
+        </div>
         <section id="CapGrid"></section>
     </main>
 </body>

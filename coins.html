@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js" defer></script>
-<script src="script.js" defer></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="script.js" defer></script>
     <title>Coins</title>
 </head>
 <body>
@@ -23,17 +24,17 @@
         </div>
 
         <div id="CoinInfoContainer">
-            <div class="CoinInfoSection" id="coinDenomination">
-                <h3 class="CoinInfoTitle">Denomination</h3>
+            <!-- <div class="CoinInfoSection" id="coinDenomination"> -->
+                <!-- <h3 class="CoinInfoTitle">Denomination</h3> -->
                 <!-- <a href="#">1</a>
                 <a href="#">2</a>
                 <a href="#">5</a>
                 <a href="#">10</a>
                 <a href="#">20</a>
                 <a href="#">50</a> -->
-            </div>
+            <!-- </div>
             <div class="CoinInfoSection" id="coinCurrency">
-                <h3 class="CoinInfoTitle">Currency</h3>
+                <h3 class="CoinInfoTitle">Currency</h3> -->
                 <!-- <a href="#">Pence</a>
                 <a href="#">Pound</a>
                 <a href="#">Euro</a>
@@ -52,7 +53,7 @@
                 <a href="#">Romanian Leu</a>
                 <a href="#">Zloty</a>
                 <a href="#">Thai Baht</a> -->
-            </div>
+            <!-- </div> -->
             <div class="CoinInfoSection" id="coinCountry">
                 <h3 class="CoinInfoTitle">Country</h3>
                 <!-- <a href="#">UK</a>
@@ -78,22 +79,25 @@
         <div id="CoinSearchDisplay"></div>
         <p id="CoinSearchDisplaySeperation" style="display: none;">===========================================================================================================================================</p>
         
-        <!-- TODO: Graphs & charts somehow -->
-
-
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <div id="coinPieChart" style="width: 40%; height: 75%;"></div>
+            <div id="coinBarChart" style="width: 40%; height: 75%;"></div>
+        </div>
+        
         <div id="CoinGrid" style="clear: both;"></div>  
     </main>
 
    <footer class="ContactGrid">
-    <a class="HeroButton" href="https://www.royalmint.com/discover/uk-coins/coin-design-and-specifications/fifty-pence-coin/" target="_blank" rel="noopener noreferrer" aria-label="Visit The Royal Mint Website" title="Click to visit the Royal Mint website">
-        <img src="assets/logos/oldRoyalMint.png" alt="The Royal Mint Logo" width="50" height="50">
-    </a>
-    <a class="HeroButton" href="https://en.numista.com/catalogue/index.php?cat=y&st=147" target="_blank" rel="noopener noreferrer" aria-label="Visit The Numista Website" title="Click to visit the Numista website">
-        <img src="assets/logos/oldNumista.png" alt="Numista Logo" width="50" height="50">
-    </a>
-    <a class="HeroButton" href="https://www.google.com/imghp" target="_blank" rel="noopener noreferrer" aria-label="Visit Google Images" title="Click to visit Google Images">
-        <img src="assets/logos/oldGoogle.png" alt="Google Logo" width="50" height="50">
-    </a>
-</footer> 
+        <a class="HeroButton" href="https://www.royalmint.com/discover/uk-coins/coin-design-and-specifications/fifty-pence-coin/" target="_blank" rel="noopener noreferrer" aria-label="Visit The Royal Mint Website" title="Click to visit the Royal Mint website">
+            <img src="assets/logos/oldRoyalMint.png" alt="The Royal Mint Logo" width="50" height="50">
+        </a>
+        <a class="HeroButton" href="https://en.numista.com/catalogue/index.php?cat=y&st=147" target="_blank" rel="noopener noreferrer" aria-label="Visit The Numista Website" title="Click to visit the Numista website">
+            <img src="assets/logos/oldNumista.png" alt="Numista Logo" width="50" height="50">
+        </a>
+        <a class="HeroButton" href="https://www.google.com/imghp" target="_blank" rel="noopener noreferrer" aria-label="Visit Google Images" title="Click to visit Google Images">
+            <img src="assets/logos/oldGoogle.png" alt="Google Logo" width="50" height="50">
+        </a>
+    </footer>
+    
 </body>
 </html>

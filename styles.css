@@ -215,9 +215,8 @@ h1{
 .CoinInfoSection a, .CapInfoSection a{
     color: #000;
     text-decoration: none;
-    /* margin-left: 2em; */
     display: inline-block;
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 .InfoTitle button{
